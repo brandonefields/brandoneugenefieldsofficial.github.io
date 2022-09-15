@@ -1,3 +1,8 @@
+/* ELEMENTS */
+body {
+    background-image: url('./images/edson-rosas-eCDuL4z6SL0-unsplash.jpg');
+}
+/* CLASSES */
 .header {
     color: orange;
 }
