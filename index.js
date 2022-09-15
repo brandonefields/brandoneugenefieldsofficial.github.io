@@ -1,4 +1,3 @@
-
-$( document ).ready(function() {
-        console.log( "ready!" );
-});
+$('header').on('click',function(){
+    console.log("Hello, world!");
+})
