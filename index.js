@@ -1,3 +1,1 @@
-$('.header').on('click',function(){
-    console.log("Hello, world!");
-})
+console.log("Hello, world!");

@@ -1,9 +1,29 @@
+/* root */
+:root {
+    --green-number-one: rgb(1, 102, 79);
+    --pink-number-one:  rgb(252, 1, 192);
+    --grey-number-one:  rgb(200, 214, 212);
+    --grey-number-two:  rgb(231 231 231);;
+    --purple-number-one:  rgb(159, 40, 148);
+    --black-number-one:  rgba(0,0,0,.9);
+}
 /* ELEMENTS */
+nav {
+    background-color: var(--grey-number-two);
+}
+/* CLASSES */
 .home {
     background-size: contain;
     background-image: url('./images/indiancreek.roadJPG.JPG');
 }
-/* CLASSES */
-.header {
-    color: orange;
+.nav-myname-logo {
+    width: 30;
+    padding: 0.1rem;
 }
+.search-button {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: var(--black-number-one);
+    background-color: var(--grey-number-one);
+}
+
