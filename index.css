@@ -17,13 +17,16 @@ nav {
     background-image: url('./images/indiancreek.roadJPG.JPG');
 }
 .nav-myname-logo {
-    width: 30;
-    padding: 0.1rem;
+    width: 100;
 }
 .search-button {
     margin-right: 5px;
     margin-left: 5px;
     color: var(--black-number-one);
     background-color: var(--grey-number-one);
+}
+.drodown-item {
+    margin-left: 5px;
+    color: var(--black-number-one);
 }
 
