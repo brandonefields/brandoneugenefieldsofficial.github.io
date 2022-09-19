@@ -29,4 +29,11 @@ nav {
     margin-left: 5px;
     color: var(--black-number-one);
 }
+.carousel-btns {
+    margin: .5rem;
+    border-radius: 2rem;
+}
+.carousel-slides {
+    width: 100%;
+}
 
