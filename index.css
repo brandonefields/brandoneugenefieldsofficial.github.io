@@ -3,7 +3,8 @@
     --green-number-one: rgb(1, 102, 79);
     --pink-number-one:  rgb(252, 1, 192);
     --grey-number-one:  rgb(200, 214, 212);
-    --grey-number-two:  rgb(231 231 231);;
+    --grey-number-two:  rgb(231 231 231);
+    --grey-number-three:  rgb(233, 236, 239);
     --purple-number-one:  rgb(159, 40, 148);
     --black-number-one:  rgba(0,0,0,.9);
 }
@@ -39,9 +40,23 @@ nav {
     height: 100vw;
 }
 .language-card {
-    background-color: brown;
     border-radius: 0.2rem;
     background-color: var(--grey-number-one);
-    margin: 0.1rem;
     padding: 2rem;
+}
+.lower-section {
+    margin: .2rem;
+    border-radius: 0.2rem;
+    background-color: var(--grey-number-three);
+}
+.lower-image {
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+
+}
+.fast-paced {
+    padding: 2rem;
+}
 
