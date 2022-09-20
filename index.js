@@ -16,3 +16,11 @@ $('.click-to-learn-more').on( "click", function(){
       'info'
     )
 })
+
+$('.search-button').on( "click", function(){
+  Swal.fire(
+      'OH NO!! Something went wrong!',
+      'Thank you, for your interest and patience! I will get to working on this ASAP!!',
+      'info'
+    )
+})
