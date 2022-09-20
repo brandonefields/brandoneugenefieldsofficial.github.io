@@ -13,6 +13,13 @@
 nav {
     background-color: var(--grey-number-two);
 }
+form {
+    filter: drop-shadow(0 0 0.75rem var(--black-number-one));
+}
+/* ID's */
+#logo {
+    filter: drop-shadow(0 0 0.75rem var(--black-number-one));
+}
 /* CLASSES */
 .home {
     background-size: contain;
