@@ -5,6 +5,7 @@
     --grey-number-one:  rgb(200, 214, 212);
     --grey-number-two:  rgb(231 231 231);
     --grey-number-three:  rgb(233, 236, 239);
+    --grey-number-four:  rgb(44, 52, 51);
     --purple-number-one:  rgb(159, 40, 148);
     --black-number-one:  rgba(0,0,0,.9);
 }
@@ -37,7 +38,8 @@ nav {
 }
 .carousel-slides {
     width: 100%;
-    height: 100vw;
+    /* height: 100vw; */
+    
 }
 .language-card {
     border-radius: 0.2rem;
@@ -84,17 +86,20 @@ nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    background: linear-gradient( rgba(211, 225, 231, 0.3), rgba(0, 0, 0, .3));
+    border-radius: 1rem;
 }
-.carousel-caption h1 {
+.carousel-caption h5{
     font-size: 500%;
     text-transform: uppercase;
-    text-shadow: 1px 1px 10px #000;
+    text-shadow: var(--grey-number-four) 1px 0 10px;
 }
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
+.carousel-caption p {
+    font-size: 100%;
+    font-weight: 100;
     padding-bottom: 1rem;
+    text-shadow: var(--grey-number-three) 1px 0 10px;
+
 }
 .jumbotron {
     padding: 1rem;
@@ -104,9 +109,30 @@ nav {
 @media (max-width: 992px) {
 
 }
-@media (max-width: 768px) {
+@media (max-width: 692px) {
+    .carousel-slides {
+        height: 50%;
+        overflow-x: hidden;
+        background-size: contain;
+        /* height: 100vw; */
+        padding: 1rem;
+        border-radius: 2rem;
+        
+    }
+    .language-card h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 468px) {
+    .carousel-slides {
+        height: 50%;
+        overflow-x: hidden;
+        background-size: contain;
+        /* height: 100vw; */
+        
+    }
 
 }
-@media (max-width: 576px) {
+@media (max-width: 376px) {
     
 }
