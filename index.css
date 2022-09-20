@@ -8,17 +8,18 @@
     --grey-number-four:  rgb(44, 52, 51);
     --purple-number-one:  rgb(159, 40, 148);
     --black-number-one:  rgba(0,0,0,.9);
+
 }
 /* ELEMENTS */
 nav {
     background-color: var(--grey-number-two);
 }
 form {
-    filter: drop-shadow(0 0 0.75rem var(--black-number-one));
+    filter: drop-shadow(0 0 0.25rem var(--black-number-one));
 }
 /* ID's */
 #logo {
-    filter: drop-shadow(0 0 0.75rem var(--black-number-one));
+    filter: drop-shadow(0 0 0.25rem var(--black-number-one));
 }
 /* CLASSES */
 .home {
@@ -70,23 +71,31 @@ form {
 }
 .lower-logo {
     width: 30%;
+    filter: drop-shadow(0 0 0.25rem var(--black-number-one));
+    border-radius: 1rem;
 }
 .youtube-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(225, 43, 42));
     width: 3.2rem;
 }
 .facebook-icon {
     width: 3rem;
+    filter: drop-shadow(0 0 0.25rem rgb(63, 92, 153));
 }
 .instagram-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(254, 198, 90));
     width: 4.6rem;
 }
 .github-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(22, 21, 22));
     width: 3.2rem;
 }
 .gmail-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(253, 192, 192));
     width: 3.2rem;
 }
 .linkedin-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(229, 214, 195));
     width: 3.2rem;
 }
 .carousel-caption {
@@ -111,6 +120,15 @@ form {
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
+}
+.help {
+    filter: drop-shadow(0 0 0.25rem var(--grey-number-one));
+}
+.hours {
+    filter: drop-shadow(0 0 0.25rem var(--grey-number-one));
+}
+.connect-social {
+    filter: drop-shadow(0 0 0.25rem var(--grey-number-one));
 }
 /*-- MEDIA QUERIES --*/
 @media (max-width: 992px) {
