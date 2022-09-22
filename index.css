@@ -78,9 +78,9 @@ form {
     filter: drop-shadow(0 0 0.25rem rgb(225, 43, 42));
     width: 3.2rem;
 }
-.facebook-icon {
+.medium-icon {
+    filter: drop-shadow(0 0 0.25rem rgb(22, 21, 22));
     width: 3rem;
-    filter: drop-shadow(0 0 0.25rem rgb(63, 92, 153));
 }
 .instagram-icon {
     filter: drop-shadow(0 0 0.25rem rgb(254, 198, 90));

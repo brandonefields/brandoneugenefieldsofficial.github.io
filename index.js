@@ -24,3 +24,4 @@ $('.search-button').on( "click", function(){
       'info'
     )
 })
+
